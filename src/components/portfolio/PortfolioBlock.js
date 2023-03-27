@@ -13,9 +13,9 @@ function PortfolioBlock(props) {
             <Box p={1} border={'2px solid black'} borderRadius={'25px'}>
                <IconLink link={live} title={'Live Demo'} icon={'fa fa-safari'}/>
             </Box>
-            {/*{ source != undefined && source != "" && <Box p={1} border={'2px solid black'} borderRadius={'25px'}>*/}
-            {/*   <IconLink link={source} title={'Source Code'} icon={'fa fa-code'}/>*/}
-            {/*</Box>}*/}
+            { source != undefined && source != "" && <Box p={1} border={'2px solid black'} borderRadius={'25px'}>
+               <IconLink link={source} title={'Source Code'} icon={'fa fa-code'}/>
+            </Box>}
          </Box>
       </Box>
    );

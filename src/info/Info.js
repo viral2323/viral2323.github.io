@@ -95,7 +95,7 @@ export const info = {
         {
             title: "Pizza App",
             live: "https://master--pizza-app-ui.netlify.app/",
-            source: "https://github.com/viral2323/pizza-app",
+            source: "https://github.com/viral2305/pizza-app",
             image: mock1
         }
     ],
