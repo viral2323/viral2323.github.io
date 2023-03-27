@@ -51,7 +51,7 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm Viral.Everyone can deliver RESULTS but a few can deliver SATISFACTION. As a React.js Developer, I specialize in designing and developing user interfaces for web applications using the React library. With several years of experience in this role, I have honed my skills in writing clean, reusable, and maintainable code, collaborating with designers and cross-functional teams, troubleshooting and debugging issues, and optimizing application performance.",
+    bio: "Hello! I'm Viral. As a React.js Developer, I specialize in designing and developing user interfaces for web applications using the React library. With several years of experience in this role, I have honed my skills in writing clean, reusable, and maintainable code, collaborating with designers and cross-functional teams, troubleshooting and debugging issues, and optimizing application performance.",
     skills:
         {
             proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'material-ui', 'tailwind-css','antd','mongodb'],
@@ -79,21 +79,21 @@ export const info = {
 // Same as above, change the emojis to match / relate to your hobbies or interests.
 // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
-    portfolio: [ // This is where your portfolio projects will be detailed
+    portfolio: [
         {
-            title: "Project 1",
-            live: "https://www.webbwe.com/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "", // this should be a link to the **repository** of the project, where the code is hosted.
+            title: "Webbwe",
+            live: "https://www.webbwe.com/",
+            source: "",
             image: mock3
         },
         {
-            title: "Project 2",
+            title: "Southwest Gas",
             live: "https://myaccount.swgas.com/Portal/#/",
             source: "",
             image: mock2
         },
         {
-            title: "Project 3",
+            title: "Pizza App",
             live: "https://master--pizza-app-ui.netlify.app/",
             source: "https://github.com/viral2323/pizza-app",
             image: mock1

@@ -36,7 +36,6 @@ export default function Navbar({darkMode, handleClick,isOpen,handleOpenClose}) {
     console.log('issmall', isSmall)
     const [active, setActive] = useState(location.pathname === '/' ? 'home' : location.pathname.slice(1, location.pathname.length));
 
-
     return (
         <>
             {isSmall ?

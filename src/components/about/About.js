@@ -58,7 +58,7 @@ export default function About() {
         return <>
             <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cd
                 experience/work</p>
-            <p><span style={{color: info.baseColor}}>experience/work<span
+            <p><span style={{color: info.baseColor}}>experience/work  <span
                 className={Style.green}>(main)</span> $</span> ls</p>
             <Box mt={'2rem'}>
                 {info.experience.map((item,i,arr) => {

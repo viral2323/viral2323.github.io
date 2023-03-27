@@ -30,8 +30,6 @@ const ParticlesBg = ({ darkMode }) => {
       init={particlesInit}
       loaded={particlesLoaded}
       options={{
-        retina_detect: false,
-        detectRetina: false,
         background: {
           color: {
             value: backgroundColor,
@@ -46,7 +44,7 @@ const ParticlesBg = ({ darkMode }) => {
           detectsOn: 'window',
           events: {
             onClick: {
-              enable: true,
+              enable: false,
               mode: 'push',
             },
             onHover: {
