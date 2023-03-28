@@ -22,7 +22,7 @@ export default function Home({darkMode}) {
             <h1>Hi, I'm <span style={{background: info.gradient, WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>{info.firstName}</span><span className={Style.hand}>🤚</span>
             </h1>
             <h2 style={{display: 'flex'}}><img style={!darkMode ? {filter: 'invert(1)' } :{}} src={isSmall ? title : titleSmall }/></h2>
-            <Box component={'ul'} pt={'0.8rem'} pb={'0.8rem'}>
+            <Box component={'ul'} pt={'0.8rem'} pb={'0.8rem'} width={'100%'}>
                {info.miniBio.map((bio, index) => (
                   <EmojiBullet key={index} emoji={bio.emoji} text={bio.text}/>
                ))}

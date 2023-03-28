@@ -38,7 +38,7 @@ export const info = {
         },
         
         {
-            link: "https://github.com/viral2323",
+            link: "https://github.com/viral2305",
             icon: "fa fa-github",
             label: 'github'
         },
