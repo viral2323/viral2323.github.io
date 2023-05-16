@@ -101,16 +101,16 @@ export const info = {
     ],
     experience: [
         {
-            name: 'opsence technologies',
-            position: 'React Js Developer',
-            year:'2019-2021',
-            duration: '1 year 6 month'
-        },
-        {
             name: 'BVM Infotech',
             position: 'MERN Stack Developer',
-            year: '2021-2023',
+            year: '2020-2022',
             duration: '2 year'
-        }
+        },
+        {
+            name: 'opsence technologies',
+            position: 'React Js Developer',
+            year:'2022-Present',
+            duration: '1 year 3 month'
+        },
     ]
 }
