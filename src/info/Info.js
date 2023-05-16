@@ -107,7 +107,7 @@ export const info = {
             duration: '2 year'
         },
         {
-            name: 'opsence technologies',
+            name: 'Antrix Infotech',
             position: 'React Js Developer',
             year:'2022-Present',
             duration: '1 year 3 month'
