@@ -14,11 +14,9 @@ export default function About() {
                 about {firstName} </p>
             <p><span style={{color: info.baseColor}}>about {firstName} <span
                 className={Style.green}>(main)</span> $ </span>
-                Everyone can deliver RESULTS but a few can deliver SATISFACTION.
-            </p>
-            <p><span style={{color: info.baseColor}}>about {firstName} <span
-                className={Style.green}>(main)</span> $ </span>
-                {info.bio}
+                {info.bio.split('\n\n').map((paragraph, index) => (
+                <p key={index}>{paragraph}</p>
+                ))}
             </p>
         </>;
     }
@@ -33,7 +31,7 @@ export default function About() {
             <ul className={Style.skills}>
                 {info.skills.proficientWith.map((proficiency, index) => <li key={index}>{proficiency}</li>)}
             </ul>
-            <p style={{color: info.baseColor}}> Exposed To</p>
+            <p style={{color: info.baseColor}}> Additional Competencies</p>
             <ul className={Style.skills}>
                 {info.skills.exposedTo.map((skill, index) => <li key={index}>{skill}</li>)}
             </ul>
@@ -80,7 +78,6 @@ export default function About() {
         <Box display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'3rem'}>
             <Terminal text={aboutMeText()}/>
             <Terminal text={skillsText()}/>
-            <Terminal text={miscText()}/>
             <Terminal text={experienceText()}/>
         </Box>
     );

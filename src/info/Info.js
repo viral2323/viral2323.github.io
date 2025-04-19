@@ -1,4 +1,7 @@
 import self from "../img/self.png"
+import mock_1 from "../img/mock-1.png"
+import mock_2 from "../img/mock-2.png"
+import mock_3 from "../img/mock-3.png"
 import mock1 from "../img/mock1.png"
 import mock2 from "../img/mock2.png"
 import mock3 from "../img/mock3.png"
@@ -22,21 +25,11 @@ export const info = {
             text: 'based in the India'
         },
         {
-            emoji: "💼",
-            text: "Currently Looking a Job"
-        },
-        {
             emoji: "📧",
             text: "viralsangani1920@gmail.com"
         }
     ],
     socials: [
-        {
-            link: "https://www.facebook.com/viral.sangani.77?mibextid=ZbWKwL",
-            icon: 'fa fa-facebook',
-            label: 'facebook'
-        },
-        
         {
             link: "https://github.com/viral2305",
             icon: "fa fa-github",
@@ -51,11 +44,11 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm Viral. As a React.js Developer, I specialize in designing and developing user interfaces for web applications using the React library. With several years of experience in this role, I have honed my skills in writing clean, reusable, and maintainable code, collaborating with designers and cross-functional teams, troubleshooting and debugging issues, and optimizing application performance.",
+    bio: "Hello! I'm Viral, a React.js Developer with over 4+ years of experience in building and leading front-end solutions. Currently working as a Frontend Team Lead, I specialize in designing and developing responsive, scalable, and high-performance user interfaces using the React.js library. \n\n Throughout my career, I have developed a strong command over writing clean, reusable, and maintainable code. I actively collaborate with UI/UX designers, backend developers, and cross-functional teams to deliver seamless user experiences. My role also involves mentoring junior developers, overseeing code quality, troubleshooting and debugging issues, and continuously optimizing application performance for the best user outcomes.",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'material-ui', 'tailwind-css','antd','mongodb'],
-            exposedTo: ['nodejs', 'expressjs', 'socket.io','graphql']
+            proficientWith: ['javascript', 'react', 'next', 'git', 'github', 'bootstrap', 'html5', 'css3', 'material-ui', 'tailwind-css','primeReact','mongodb'],
+            exposedTo: ['Agile & Team Management', 'JIRA & Project Management',]
         }
     ,
     hobbies: [
@@ -81,6 +74,24 @@ export const info = {
     ],
     portfolio: [
         {
+            title: 'AssetFusion360',
+            live: 'http://lacoe.hexalytics.ai/',
+            source: '',
+            image: mock_1
+        },
+        {
+            title: 'Apple Sell Out Data Portal',
+            live: 'https://analytics.redingtongroup.com/AppleDataUpload/',
+            source: '',
+            image: mock_2
+        },
+        {
+            title: "Report Card",
+            live: "https://aisd-reportcards-dev.austinisd.org/",
+            source: "",
+            image: mock_3
+        },
+        {
             title: "Webbwe",
             live: "https://www.webbwe.com/",
             source: "",
@@ -101,16 +112,16 @@ export const info = {
     ],
     experience: [
         {
-            name: 'BVM Infotech',
-            position: 'MERN Stack Developer',
-            year: '2020-2022',
-            duration: '2 year'
+            name: 'Hexalytics PVT. LTD.',
+            position: 'Team Lead/Senior Frontend Developer',
+            year: '2023-Present',
+            duration: '1 year 8 month'
         },
         {
-            name: 'Antrix Infotech',
-            position: 'React Js Developer',
-            year:'2022-Present',
-            duration: '1 year 3 month'
+            name: 'BVM Infotech',
+            position: 'Frontend Developer',
+            year:'2021-2023',
+            duration: '2 year 7 month'
         },
     ]
 }
